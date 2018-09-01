@@ -11501,7 +11501,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Microsoft.AspNetCore.App",
+      "Microsoft.AspNetCore.App >= 2.1.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -11548,7 +11548,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[2.1.0, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
@@ -11563,17 +11563,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1604",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Project dependency Microsoft.AspNetCore.App does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
-      "libraryId": "Microsoft.AspNetCore.App",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
-      ]
-    }
-  ]
+  }
 }

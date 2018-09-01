@@ -78,6 +78,6 @@ namespace TodoApi.Controllers
             _context.TodoItems.Remove(todo);
             _context.SaveChanges();
             return NoContent();
-        }
+        }   
     }
 }
